@@ -55,21 +55,3 @@ try:
 except:
     mydb.rollback()
             
-# for i in range(10):
-#     if((i+1)%5 == 0):
-#         source = './queue/'
-        
-
-#         files = os.listdir(source)
-#         cursor.execute("INSERT INTO testbool ( is_checked) VALUES (1);")
-#         for f in files:
-#             os.rename(source + f, destination + f)
-            
-        
-#     else:
-#         cursor.execute("INSERT INTO testbool ( is_checked) VALUES (0);")
-    
-#     myresult = cursor.fetchall()
-# for row in myresult:
-#         print(myresult[row])
-#         print("\n")
